@@ -17,4 +17,5 @@ model DiscordMessage {
   postType    String
   dateCreated DateTime
   serverName  String
+  channelName String
 }
