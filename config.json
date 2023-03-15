@@ -1,0 +1,41 @@
+{
+  "servers": [
+    {
+      "name": "MechMarket",
+      "channels": [
+        { "name": "selling", "channelID": "", "type": "Selling" },
+        { "name": "selling", "channelID": "", "type": "Selling" },
+        { "name": "selling", "channelID": "", "type": "Selling" },
+        { "name": "selling", "channelID": "", "type": "Selling" }
+      ]
+    },
+    {
+      "name": "DeskHero",
+      "channels": [
+        { "name": "market", "channelID": "689578698436771858", "type": "" }
+      ]
+    },
+    {
+      "name": "MechGroupBuys",
+      "channels": [
+        {
+          "name": "sell",
+          "channelID": "683068530513674240",
+          "type": "Selling"
+        },
+        { "name": "buy", "channelID": "683068253257596939", "type": "Buying" },
+        {
+          "name": "trade",
+          "channelID": "810750213927993344",
+          "type": "Trading"
+        }
+      ]
+    },
+    {
+      "name": "CanadianMechanicalKeyboards",
+      "channels": [
+        { "name": "MechMarket", "channelID": "379790816568410112", "type": "" }
+      ]
+    }
+  ]
+}
