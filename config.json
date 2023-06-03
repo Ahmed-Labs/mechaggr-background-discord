@@ -1,12 +1,28 @@
 {
   "servers": [
     {
+      "name": "MAYO's Second Kitchen",
+      "channels": [
+        {
+          "name": "test",
+          "channelID": "1113657844856782868",
+          "type": ""
+        }
+      ]
+    },
+    {
+      "name": "DeskHero",
+      "channels": [
+        { "name": "market", "channelID": "689578698436771858", "type": "" }
+      ]
+    },{
       "name": "MechMarket",
       "channels": [
-        { "name": "selling", "channelID": "", "type": "Selling" },
-        { "name": "selling", "channelID": "", "type": "Selling" },
-        { "name": "selling", "channelID": "", "type": "Selling" },
-        { "name": "selling", "channelID": "", "type": "Selling" }
+        {
+          "name": "selling",
+          "channelID": "427630953100476436",
+          "type": "Selling"
+        }
       ]
     },
     {
