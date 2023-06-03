@@ -38,7 +38,7 @@ async function main() {
       console.log("Bot is online!");
     });
 
-    client.on("message", async (message: any) => {
+    client.on("messageCreate", async (message: any) => {
       for (const server of config.servers) {
         for (const channel of server.channels) {
           if (channel.channelID == message.channelId) {

@@ -62,7 +62,7 @@ function main() {
             client.on("ready", () => __awaiter(this, void 0, void 0, function* () {
                 console.log("Bot is online!");
             }));
-            client.on("message", (message) => __awaiter(this, void 0, void 0, function* () {
+            client.on("messageCreate", (message) => __awaiter(this, void 0, void 0, function* () {
                 for (const server of config.servers) {
                     for (const channel of server.channels) {
                         if (channel.channelID == message.channelId) {
